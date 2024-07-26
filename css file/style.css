@@ -18,11 +18,27 @@ header {
 
 }
 
+.mobile-icon {
+    display: none;
+}
+
+.hero-btn-m{
+    display: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+    border: none;
+}
+
 header nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 150px;
+    margin: 0px 200px;
 
 }
 
@@ -72,7 +88,7 @@ header nav .nav-menu a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 150px;
+    margin: 0px 200px;
 
 
 
@@ -110,6 +126,9 @@ header nav .nav-menu a {
     margin-top: 40px;
     display: flex;
     gap: 30px;
+}
+.hero-section .text-part .hero-button a {
+    text-decoration: none;
 }
 
 .hero-section .text-part .hero-button .hero-btn1 {
@@ -207,21 +226,37 @@ header nav .nav-menu a {
     width: 40px;
     background: rgb(230, 83, 60);
     border-radius: 40px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
 }
+
+.hero-section .hero-imgpart .videos-titirial .v-cercle .v-cercle2{
+    display: none;
+}
+
+.hero-section .hero-imgpart .videos-titirial .v-cercle .v-cercle2 img{
+   width: 15px;
+   padding-left: 1px;
+   padding-top: 2px;
+   
+}
+
 
 .hero-section .hero-imgpart .videos-titirial .v-text h1 {
     color: rgb(250, 250, 249);
     font-size: 24px;
     font-weight: 900;
     line-height: 0;
-    padding-top: 24px;
+    padding-top: 0px;
 }
 
 .hero-section .hero-imgpart .videos-titirial .v-text h6 {
     color: rgba(239, 237, 232, 0.65);
     font-size: 16px;
     font-weight: 400;
-    line-height: 0;
+    margin: 0;
+    padding-top: 0px;
 }
 
 
