@@ -6,7 +6,9 @@ body {
     font-family: "Inter", sans-serif;
     background-color: black;
     margin: 0;
-
+    color: white;
+   
+    
 }
 
 
@@ -22,7 +24,7 @@ header {
     display: none;
 }
 
-.hero-btn-m{
+.hero-btn-m {
     display: none;
     color: rgb(255, 255, 255);
     font-family: Inter;
@@ -89,8 +91,7 @@ header nav .nav-menu a {
     justify-content: center;
     align-items: center;
     margin: 0px 200px;
-
-
+ 
 
 }
 
@@ -127,6 +128,7 @@ header nav .nav-menu a {
     display: flex;
     gap: 30px;
 }
+
 .hero-section .text-part .hero-button a {
     text-decoration: none;
 }
@@ -199,8 +201,6 @@ header nav .nav-menu a {
     font-family: Inter;
     font-size: 13px;
     font-weight: 400;
-
-
 }
 
 .hero-section .hero-imgpart .videos-titirial {
@@ -227,21 +227,20 @@ header nav .nav-menu a {
     background: rgb(230, 83, 60);
     border-radius: 40px;
     display: flex;
-   justify-content: center;
-   align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.hero-section .hero-imgpart .videos-titirial .v-cercle .v-cercle2{
+.hero-section .hero-imgpart .videos-titirial .v-cercle .v-cercle2 {
     display: none;
 }
 
-.hero-section .hero-imgpart .videos-titirial .v-cercle .v-cercle2 img{
-   width: 15px;
-   padding-left: 1px;
-   padding-top: 2px;
-   
-}
+.hero-section .hero-imgpart .videos-titirial .v-cercle .v-cercle2 img {
+    width: 15px;
+    padding-left: 1px;
+    padding-top: 2px;
 
+}
 
 .hero-section .hero-imgpart .videos-titirial .v-text h1 {
     color: rgb(250, 250, 249);
@@ -259,6 +258,138 @@ header nav .nav-menu a {
     padding-top: 0px;
 }
 
-
 /* hero-section style end */
 /* header section style end */
+
+
+
+/* 
+change-habits style :start */
+
+.change-habits .change-hab-title {
+    padding: 30px 0px 60px 0px
+}
+
+
+.change-habits .change-hab-title h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin: 15px;
+}
+
+.change-habits .change-hab-title p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    width: 33%;
+    margin: auto;
+    line-height: 24px;
+}
+
+
+
+.change-habits .change-hab-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.change-habits .change-hab-item .item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.change-habits .change-hab-item .item img {
+    border-radius: 200px;
+    border: 1px solid #ffffffbd;
+}
+
+
+.change-habits .change-hab-item .item h4 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.change-habits .change-hab-item .item p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    width: 70%;
+    margin: 0;
+}
+
+/* change-habits style end */
+
+
+/* run extra style start */
+
+.run-extra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.run-extra .run-title {
+
+    width: 50%;
+}
+
+.run-extra .run-title h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.run-extra .run-title p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    width: 40%;
+}
+
+
+.run-extra .run-title button {
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    
+   
+}
+
+/* .run-extra .run-image {
+    width: 50%;
+} */
+
+.run-extra .run-image {
+    background-image: url('images/run.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 4px;
+    width: 400px;
+
+}
