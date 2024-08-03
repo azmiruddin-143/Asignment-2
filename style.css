@@ -266,6 +266,8 @@ header nav .nav-menu a {
 /* 
 change-habits style :start */
 
+
+
 .change-habits .change-hab-title {
     padding: 30px 0px 60px 0px
 }
@@ -294,11 +296,9 @@ change-habits style :start */
 
 
 .change-habits .change-hab-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0px 80px;
 }
 
 .change-habits .change-hab-item .item {
@@ -330,7 +330,7 @@ change-habits style :start */
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    width: 70%;
+    width: 60%;
     margin: 0;
 }
 
@@ -341,14 +341,19 @@ change-habits style :start */
 
 .run-extra {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    width: 78%;
+    margin: 120px auto;
+    padding: 25px 30px;
+    
 
 }
 
 
 .run-extra .run-title {
-
     width: 50%;
 }
 
@@ -357,6 +362,7 @@ change-habits style :start */
     font-family: Inter;
     font-size: 48px;
     font-weight: 900;
+    width: 50%;
 }
 
 .run-extra .run-title p {
@@ -364,7 +370,7 @@ change-habits style :start */
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
-    width: 40%;
+    width: 60%;
 }
 
 
@@ -377,19 +383,15 @@ change-habits style :start */
     font-size: 18px;
     font-weight: 600;
     border: none;
+    margin-top: 20px;
     
    
 }
 
-/* .run-extra .run-image {
-    width: 50%;
-} */
 
-.run-extra .run-image {
-    background-image: url('images/run.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 4px;
-    width: 400px;
 
+.run-extra .run-image img  {
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
 }
