@@ -84,8 +84,31 @@
         width: 330px !important;
         height: 290px !important;
         border-radius: 15px !important;
-       
     }
+
+    /* calcluter section responsive */
+
+    .calculate-form form input {
+        width: 215.5px !important;
+        
+    }
+
+    .calculate-form form select {
+        width: 244.5px !important;
+    
+    }
+    .activity {
+        position: relative;
+        width: 504px !important;
+    }
+    .calculate-form form .activity select {
+        width: 504px !important;
+    }
+
+    .calculate {
+        width: 50% !important;
+    } 
+
 
 }
 
@@ -93,6 +116,7 @@
 
 
 @media screen and (min-width:1301px) and (max-width:1440px) {
+
 
     header nav {
         display: flex;
@@ -151,6 +175,44 @@
         border-radius: 15px !important;
        
     }
+
+
+    /* calcluter section responsive */
+
+
+     .calculate-form form input {
+        border: none;
+        width: 236.5px !important;
+      
+    }
+
+    .calculate-form form select {
+        width: 264.5px !important;
+    
+    }
+
+    .calculate-form form .activity select {
+        width: 543px !important;
+    }
+    .activity {
+        position: relative;
+        width: 543px !important;
+    }
+
+    .calculate {
+        width: 43% !important;
+    }
+
+    .calculator {
+        background: rgb(34, 34, 34);
+        display: flex;
+        justify-content: space-around;
+        padding: 80px 0px;
+        margin-bottom: 80px;
+        align-items: center;
+        gap: 105px !important;
+    }
+
 
 
 }
@@ -287,8 +349,49 @@
         width: 285px !important;
         height: 260px !important;
         border-radius: 15px !important;
+    }
+
+
+     /* calcluter section responsive */
+     .calculate {
+        width: 50% !important;
+    }
+
+
+     .calculate-form form .activity select {
+        width: 373px !important;
+    }
+    .activity {
+        position: relative;
+        width: 373px !important;
+    }
+
+    .calculate-form form input {
+        width: 150.5px !important;
+
+    }
+
+    .calculate-form form select {
+        width: 179.5px !important;
        
     }
+    .calculator {
+         gap: 0px !important; 
+    } 
+
+
+    .calculator-titile {
+        width: 50%;
+        margin: 50px auto !important;
+    }
+    
+
+    .calculator-titile p {
+        width: 100% !important;
+    }
+    
+     
+
 
 }
 
@@ -483,9 +586,69 @@
     .run-extra .run-title button {
         padding: 12px 30px 12px 30px !important;
         font-size: 15px !important;
+    }
+
+
+
+       /* calcluter section responsive */
+
+        .calculator {
+        background: rgb(34, 34, 34);
+        display: flex ;
+        justify-content: space-around;
+        padding: 80px 25px !important;
+        margin-bottom: 80px;
+        align-items: center;
+        gap: 50px !important;
+        flex-direction: column !important;
+
+
+
+    }
+       .calculate {
+        width: 100% !important;
+      
+
+    }
+    .calculator-chart {
+        width: 100% !important;
+    }
+
+     .calculate-form form .activity select {
+        width: 553px !important;
+    }
+    .activity {
+        position: relative;
+        width: 553px !important;
+    }
+
+    .calculate-form form input {
+        width: 240.5px !important;
        
     }
 
+    .calculate-form form select {
+        width: 268.5px !important;
+        
+    }
+    
+
+
+  
+    .calculator-titile {
+        width: 70% !important;
+        margin: 0px auto !important;
+    }
+       
+    .calculator-titile h1 {
+        font-size: 40px !important;
+ 
+    }
+
+    .calculator-titile p {
+        width: 100% !important;
+    }
+ 
 
 }
 
@@ -700,6 +863,64 @@
             border-radius: 15px !important;
         }
 
+
+         /* calcluter section responsive */
+
+       .calculator {
+        background: rgb(34, 34, 34);
+        display: flex ;
+        justify-content: space-around;
+        padding: 80px 25px !important;
+        margin-bottom: 80px;
+        align-items: center;
+        gap: 50px !important;
+        flex-direction: column !important;
+
+
+
+    }
+       .calculate {
+        width: 100% !important;
+      
+
+    }
+    .calculator-chart {
+        width: 100% !important;
+    }
+
+     .calculate-form form .activity select {
+        width: 443px !important;
+    }
+    .activity {
+        position: relative;
+        width: 443px !important;
+    }
+
+    .calculate-form form input {
+        width: 185.5px !important;
+      
+    }
+    .calculate-form form select {
+        width: 213.5px !important;
+       
+    }
+
+    .calculator-titile {
+        width: 90% !important;
+        margin: 50px auto !important;
+    }
+       
+    .calculator-titile h1 {
+        font-size: 35px !important;
+ 
+    }
+
+    .calculator-titile p {
+        width: 100% !important;
+    }
+ 
+    
+
 }
 
 
@@ -913,6 +1134,75 @@
         border-radius: 15px !important;
         margin-top: 30px;
     }
+
+      /* calcluter section responsive */
+
+       .calculator {
+        background: rgb(34, 34, 34);
+        display: flex ;
+        justify-content: space-around;
+        padding: 80px 25px !important;
+        margin-bottom: 80px;
+        align-items: center;
+        gap: 50px !important;
+        flex-direction: column !important;
+
+
+
+    }
+       .calculate {
+        width: 100% !important;
+      
+
+    }
+    .calculator-chart {
+        width: 100% !important;
+    }
+
+     .calculate-form form .activity select {
+        width: 370px !important;
+    }
+    .activity {
+        position: relative;
+        width: 370px !important;
+    }
+
+    .calculate-form form input {
+        width: 149.5px !important;
+      
+    }
+
+    .calculate-form form select {
+        width: 177.5px !important;
+       
+    }
+
+    .calculate-form button {
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        padding: 10px 40px 10px 40px !important;
+        border: none;
+        color: white;
+        margin-top: 15px;
+    } 
+
+
+    .calculator-titile {
+        width: 90% !important;
+        margin: 40px auto !important;
+    }
+       
+    .calculator-titile h1 {
+        font-size: 30px !important;
+ 
+    }
+
+    .calculator-titile p {
+        width: 100% !important;
+    }
+
+    
+   
 
 }
 
@@ -1238,10 +1528,628 @@
     .run-extra .run-title button {
         padding: 12px 30px 12px 30px !important;
         font-size: 12px !important;
-        
     }
+
+
+
+
+
+       /* calcluter section responsive */
+
+        .calculator {
+        background: rgb(34, 34, 34);
+        display: flex ;
+        justify-content: space-around;
+        padding: 80px 15px !important;
+        margin-bottom: 80px;
+        align-items: center;
+        gap: 50px !important;
+        flex-direction: column !important;
+
+
+
+    }
+       .calculate {
+        width: 100% !important;
+      
+
+    }
+    .calculator-chart {
+        width: 100% !important;
+    }
+
+     .calculate-form form .activity select {
+        width: 281px !important;
+    }
+
+   
+
+    .calculate-form form input {
+        width: 104.5px !important;
+        font-size: 13px !important;
+      
+    }
+
+    .calculate-form form select {
+        width: 132.5px !important;
+        font-size: 13px !important;
+       
+    }
+
+    .calculate-form button {
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        padding: 10px 40px 10px 40px !important;
+        border: none;
+        color: white;
+        margin-top: 15px;
+    }
+    
+
+    .calculator-titile {
+        width: 90% !important;
+        margin: 40px auto !important;
+    }
+       
+    .calculator-titile h1 {
+        font-size: 25px !important;
+ 
+    }
+
+    .calculator-titile p {
+        width: 100% !important;
+        font-size: 12px !important;
+    }
+
+   
+    .calculator .calculator-chart .calculator-text h1 {
+        font-size: 25px !important;
+    
+      
+    }
+
+    .calculate .calculate-title p {
+        width: 100% !important;
+        font-size: 12px !important;
+        margin-bottom: 15px;
+    }
+
+    .calculator .calculator-table table th {
+       
+        font-size: 12px !important;
+      
+    }
+
+    .calculator .calculator-table table td {
+        font-size: 12px !important;
+      
+    }
+    .calculate-form button {
+        padding: 13px 40px !important;
+    }
+
 
 }
 
 
 
+
+
+/* jast grid section all device responsive start */
+
+/* responsive design  */
+
+@media screen and (min-width:320px) and (max-width:575px) {
+
+    .grid {
+        width: 90% !important;
+        margin: 50px auto !important;
+    }
+
+    .grid .grid-title h1 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 25px !important;
+        font-weight: 900;
+        margin: 0;
+    }
+    
+    .grid .grid-title p {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        width: 100% !important;
+        line-height: 24px;
+        margin-bottom: 50px;
+    }
+    
+    .grid-templete {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    #grid-templete2 {
+        display: grid !important;
+        grid-template-columns: 1fr 1.2fr !important;
+    
+    }
+    .grid-templete .grid-1 {
+        background-image: url('images/exercise1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 130px !important;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        background-color: #24d3d3ad;
+        background-blend-mode: overlay;
+    }
+    .grid-templete .grid-1 h1 {
+        margin-bottom: 10px;
+        margin-left: 20px;
+        font-size: 16px !important;
+        color: white;
+    }
+    .grid-templete .grid-2 {
+        background-image: url('images/exercise2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: start;
+        height: 130px !important;
+        background-color: #ed29294f;
+        background-blend-mode: overlay;
+    }
+
+
+    .grid-templete .grid-3 {
+       display: none !important;
+    }
+    .grid-templete .grid-2 h1 {
+        margin-left: 20px;
+        color: white;
+        font-size: 16px !important;
+    }
+
+    .grid-templete .grid-6 {
+        display: none !important;
+    }
+
+    .grid-templete .grid-4 {
+        background-image: url('images/exercise4.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: start;
+        height: 130px !important;
+        display: flex;
+        justify-content: end;
+        background-color: #00000080;
+        background-blend-mode: overlay;
+        position: relative;
+    }
+    
+    #grid-templete2 .grid-4 h1 {
+        font-size: 22px !important;
+        width: 40% !important;
+        color: white;
+    }
+    
+    .grid-templete .grid-5 {
+        background-image: url('images/exercise5.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 130px !important;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        background-color: #39d80d55;
+        background-blend-mode: overlay;
+    }
+    #grid-templete2 .grid-4 h1 {
+        display: none !important;
+    }
+    #grid-templete2 .grid-4 h2 {
+        display: flex !important;
+        color: white;
+        font-size: 16px !important;
+        justify-content: end;
+        align-items: center;
+        position: absolute;
+        top: 84px !important;
+        left: 14px !important;
+    }
+    #grid-templete2 .grid-5 h1 {
+        display: none !important;
+    }
+    #grid-templete2 .grid-5 h2 {
+        display: block !important;
+        color: white;
+        font-size: 16px !important;
+        margin-left: 15px;
+    }
+
+    .run-extra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        width: 78%;
+        margin: 30px auto !important;
+        padding: 25px 30px;
+    }
+  
+ }
+
+
+ @media screen and (min-width:576px) and (max-width:1023px) {
+
+
+
+    .grid {
+        width: 93% !important;
+        margin: 50px auto !important;
+    }
+
+
+    .grid .grid-title h1 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 36px !important;
+        font-weight: 900;
+        margin: 0;
+    }
+    .grid .grid-title p {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        width: 70% !important;
+        line-height: 24px;
+        margin-bottom: 50px;
+    }
+
+    .grid-templete {
+        display: grid !important;
+        grid-template-columns: 1fr 1.3fr 1fr !important;
+    }
+    #grid-templete2 {
+        display: grid !important;
+        grid-template-columns: 1.4fr 1.3fr 1.1fr !important;
+    
+    }
+
+    .grid-templete .grid-1 {
+        background-image: url('images/exercise1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 150px !important;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        background-color: #24d3d3ad;
+        background-blend-mode: overlay;
+    }
+    
+    .grid-templete .grid-1 h1 {
+        margin-bottom: 20px !important;
+        margin-left: 20px !important;
+        font-size: 16px !important;
+    }
+    
+    .grid-templete .grid-2 {
+        background-image: url('images/exercise2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 150px !important;
+        background-color: #ed29294f;
+        background-blend-mode: overlay;
+    }
+    
+    .grid-templete .grid-2 h1 {
+        margin-left: 50px !important;
+        color: white;
+        font-size: 16px !important;
+    }
+    
+    .grid-templete .grid-3 {
+        background-image: url('images/exercise3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 150px !important;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        background-color: #00000080;
+        background-blend-mode: overlay;
+    }
+    
+    .grid-templete .grid-3 h1 {
+        margin-bottom: 20px !important;
+        margin-left: 20px !important;
+        font-size: 16px !important;
+        width: 100% !important;
+        color: white;
+    }
+    
+
+    .grid-templete .grid-5 {
+        background-image: url('images/exercise5.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 150px !important;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        background-color: #39d80d55;
+        background-blend-mode: overlay;
+    }
+    
+    #grid-templete2 .grid-5 h1 {
+        margin-bottom: 20px!important;
+        margin-left: 20px !important;
+        font-size: 16px !important;
+        width: 100% !important;
+        color: white;
+    
+    }
+    
+    .grid-templete .grid-6 {
+        background-image: url('images/exercise6.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 150px !important ;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        background-color: #0d4ad870;
+        background-blend-mode: overlay;
+    }
+    
+    #grid-templete2 .grid-6 h1 {
+        margin-bottom: 20px!important;
+        margin-left: 20px !important;
+        font-size: 16px !important;
+        width: 100% !important;
+        color: white;
+    
+    }
+
+.grid-templete .grid-4 {
+    background-image: url('images/exercise4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: start;
+    height: 150px !important;
+    display: flex;
+    justify-content: end;
+    background-color: #00000080;
+    background-blend-mode: overlay;
+    position: relative;
+}
+
+#grid-templete2 .grid-4 h1 {
+    font-size: 16px!important;
+    width: 80% !important;
+    color: white;
+    position: absolute;
+    top: 80px !important;
+    left: 20px !important;
+ }
+}
+
+
+
+
+
+@media screen and (min-width:1024px) and (max-width:1300px) {
+
+    .grid {
+        width:92% !important;
+        margin: 50px auto;
+    }
+
+    .grid .grid-title p {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        width: 60% !important;
+        line-height: 24px;
+        margin-bottom: 50px;
+    }
+
+    .grid-templete {
+        display: grid !important;
+        grid-template-columns: 1.6fr 2.5fr 1.8fr !important;
+    }
+    #grid-templete2 {
+        display: grid !important;
+        grid-template-columns: 1.8fr 1.5fr 1.7fr !important; 
+    
+    }
+
+    .grid-templete .grid-1 {
+        background-image: url('images/exercise1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px !important;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        background-color: #24d3d3ad;
+        background-blend-mode: overlay;
+    }
+    
+    .grid-templete .grid-1 h1 {
+        margin-bottom: 60px !important;
+        margin-left: 30px !important;
+        font-size: 20px !important;
+    }
+    
+    .grid-templete .grid-2 {
+        background-image: url('images/exercise2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px !important;
+        background-color: #ed29294f;
+        background-blend-mode: overlay;
+    }
+    
+    .grid-templete .grid-2 h1 {
+        margin-left: 30px!important;
+        color: white;
+        font-size: 20px !important;
+    }
+    
+    .grid-templete .grid-3 {
+        background-image: url('images/exercise3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px !important;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        background-color: #00000080;
+        background-blend-mode: overlay;
+    }
+    
+    .grid-templete .grid-3 h1 {
+        margin-bottom: 50px !important;
+        margin-left: 30px !important;
+        font-size: 20px !important;
+        width: 70% !important;
+        color: white;
+    }
+    
+    .grid-templete .grid-4 {
+        background-image: url('images/exercise4.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: start;
+        height: 300px !important;
+        display: flex;
+        justify-content: end;
+        background-color: #00000080;
+        background-blend-mode: overlay;
+    }
+    
+    #grid-templete2 .grid-4 h1 {
+        font-size: 20px !important;
+        width: 70% !important;
+        color: white;
+        text-align: end;
+        padding-right: 20px !important;
+    }
+    
+    .grid-templete .grid-5 {
+        background-image: url('images/exercise5.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px !important;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        background-color: #39d80d55;
+        background-blend-mode: overlay;
+    }
+    
+    #grid-templete2 .grid-5 h1 {
+        margin-bottom: 50px !important;
+        margin-left: 30px !important;
+        font-size: 20px !important;
+        width: 70% !important;
+        color: white;
+    
+    }
+    
+    .grid-templete .grid-6 {
+        background-image: url('images/exercise6.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px !important;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        background-color: #0d4ad870;
+        background-blend-mode: overlay;
+    }
+    
+    #grid-templete2 .grid-6 h1 {
+        margin-bottom: 50px !important;
+        margin-left: 30px !important;
+        font-size: 20px !important;
+        width: 70% !important;
+        color: white;
+    
+    }
+                              
+}
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+    .grid .grid-title p {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 12px !important;
+        font-weight: 400;
+        width: 100% !important;
+        line-height: 20px !important;
+        margin-bottom: 50px;
+    }
+
+}
+@media screen and (min-width:1301px) and (max-width:1440px) {
+
+    .grid {
+        width:87% !important;
+        margin: 50px auto;
+    }
+
+}
+
+@media screen and (min-width:1441px) and (max-width:1700px) {
+
+    .calculate-form form input {
+        width: 208.5px !important;
+   
+    }
+    
+    .calculate-form form select {
+        width: 238.5px !important;
+      
+    }
+
+    .calculate-form form .activity select {
+        width: 491px !important;
+    }
+}
+
+
+@media screen and (min-width:1701px) and (max-width:1850px) {
+
+    .calculate-form form input {
+        width: 250.5px !important;
+   
+    }
+    
+    .calculate-form form select {
+        width: 278.5px !important;
+      
+    }
+
+    .calculate-form form .activity select {
+        width: 573px !important;
+    }
+}
