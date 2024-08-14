@@ -2,13 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+BE+VLG:wght@100..400&display=swap');
 
 
+*{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Inter", sans-serif;
     background-color: black;
     margin: 0;
     color: white;
-
-
 }
 
 
@@ -16,7 +18,8 @@ body {
 
 header {
     background: linear-gradient(180.00deg, rgba(57, 57, 57, 0.154), rgba(255, 255, 255, 0.116), rgba(0, 0, 0, 0.866));
-    padding-bottom: 50px;
+    padding-bottom: 0px;
+   
 
 }
 
@@ -95,8 +98,8 @@ header nav .nav-menu a {
     justify-content: center;
     align-items: center;
     margin: 0px 200px;
-
-
+    padding-top: 100px;
+   
 }
 
 .hero-section .text-part {
@@ -125,6 +128,7 @@ header nav .nav-menu a {
 .hero-section .text-part p {
     width: 60%;
     color: rgba(255, 255, 255, 0.5);
+    line-height:24px;
 }
 
 .hero-section .text-part .hero-button {
@@ -273,7 +277,8 @@ change-habits style :start */
 
 
 .change-habits .change-hab-title {
-    padding: 30px 0px 60px 0px
+    padding: 120px 0px 60px 0px
+
 }
 
 
@@ -292,7 +297,7 @@ change-habits style :start */
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    width: 33%;
+    width: 28%;
     margin: auto;
     line-height: 24px;
 }
@@ -302,7 +307,7 @@ change-habits style :start */
 .change-habits .change-hab-item {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 0px 80px;
+    margin: 0px 85px;
 }
 
 .change-habits .change-hab-item .item {
@@ -366,7 +371,7 @@ change-habits style :start */
     font-family: Inter;
     font-size: 48px;
     font-weight: 900;
-    width: 50%;
+    width: 60%
 }
 
 .run-extra .run-title p {
@@ -375,6 +380,7 @@ change-habits style :start */
     font-size: 14px;
     font-weight: 400;
     width: 60%;
+    line-height: 24px;
 }
 
 
@@ -454,8 +460,8 @@ change-habits style :start */
 }
 
 .grid-templete .grid-1 h1 {
-    margin-bottom: 60px;
-    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
     font-size: 25px;
 }
 
@@ -470,7 +476,7 @@ change-habits style :start */
 }
 
 .grid-templete .grid-2 h1 {
-    margin-left: 50px;
+    margin-left: 30px;
     color: white;
     font-size: 22px;
 }
@@ -489,8 +495,8 @@ change-habits style :start */
 }
 
 .grid-templete .grid-3 h1 {
-    margin-bottom: 50px;
-    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-left: 30px;
     font-size: 22px;
     width: 50%;
     color: white;
@@ -528,10 +534,10 @@ change-habits style :start */
 }
 
 #grid-templete2 .grid-5 h1 {
-    margin-bottom: 50px;
-    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-left: 30px;
     font-size: 22px;
-    width: 50%;
+    width: 100%;
     color: white;
 
 }
@@ -550,8 +556,8 @@ change-habits style :start */
 }
 
 #grid-templete2 .grid-6 h1 {
-    margin-bottom: 50px;
-    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-left: 30px;
     font-size: 22px;
     width: 40%;
     color: white;
@@ -603,6 +609,7 @@ change-habits style :start */
     font-size: 14px;
     font-weight: 400;
     width: 65%;
+    line-height: 24px;
 
 }
 
@@ -680,6 +687,7 @@ change-habits style :start */
     font-size: 14px;
     font-weight: 400;
     width: 80%;
+    line-height: 24px;
 }
 
 
@@ -783,6 +791,27 @@ option {
     align-items: end;
     background-color: rgba(0, 0, 0, 0.184);
     background-blend-mode: overlay;
+    transition: all 0.8s ease;
+    
+}
+
+.ourteam .ourteam-grid .team-grid1:hover{
+    transform: scale(1.03);
+}
+.ourteam .ourteam-grid .team-grid2:hover{
+    transform: scale(1.03);
+}
+.ourteam .ourteam-grid .team-grid3:hover{
+    transform: scale(1.03);
+}
+.ourteam .ourteam-grid .team-grid4:hover{
+    transform: scale(1.03);
+}
+.ourteam .ourteam-grid .team-grid5:hover{
+    transform: scale(1.03);
+}
+.ourteam .ourteam-grid .team-grid6:hover{
+    transform: scale(1.03);
 }
 
 .ourteam .ourteam-grid .team-grid1 h3,
@@ -807,6 +836,8 @@ option {
     font-family: Inter;
     font-weight: 400;
     margin: 5px 20px 20px 20px;
+    
+   
 }
 
 .ourteam .ourteam-grid .team-grid2 {
@@ -820,6 +851,7 @@ option {
     align-items: end;
     background-color: rgba(0, 0, 0, 0.184);
     background-blend-mode: overlay;
+    transition: all 0.8s ease;
 }
 
 .ourteam .ourteam-grid .team-grid3 {
@@ -833,6 +865,7 @@ option {
     align-items: end;
     background-color: rgba(0, 0, 0, 0.184);
     background-blend-mode: overlay;
+    transition: all 0.8s ease;
 }
 
 .ourteam .ourteam-grid .team-grid4 {
@@ -847,6 +880,7 @@ option {
     align-items: end;
     background-color: rgba(0, 0, 0, 0.184);
     background-blend-mode: overlay;
+    transition: all 0.8s ease;
 
 }
 
@@ -861,6 +895,7 @@ option {
     align-items: end;
     background-color: rgba(0, 0, 0, 0.184);
     background-blend-mode: overlay;
+    transition: all 0.8s ease;
 
 }
 
@@ -875,6 +910,8 @@ option {
     align-items: end;
     background-color: rgba(0, 0, 0, 0.184);
     background-blend-mode: overlay;
+    transition: all 0.8s ease;
+    
 }
 
 
@@ -900,7 +937,8 @@ option {
     font-weight: 400;
     text-align: center;
     margin: 20px auto;
-    width: 40%;
+    width: 32%;
+    line-height: 24px;
 
 }
 
@@ -972,13 +1010,22 @@ option {
     justify-content: end;
     background-color: rgba(0, 0, 0, 0.184);
     background-blend-mode: overlay;
+    transition: all 0.8s ease;
 }
 
-/* .blog .blog-grid .post-grid1:hover {
-    
-    transform: scale(0.10);
-    transition: 1s;
-} */
+.blog .blog-grid .post-grid1:hover{
+    transform: scale(1.03);
+  
+   
+}
+.blog .blog-grid .post-grid2:hover{
+    transform: scale(1.03);
+   
+}
+.blog .blog-grid .post-grid3:hover{
+    transform: scale(1.03);
+   
+}
 
 .blog .blog-grid .post-grid2 {
     background-image: url('images/time\ spent\ gym.jpg');
@@ -990,6 +1037,7 @@ option {
     background-color: rgba(0, 0, 0, 0.184);
     background-blend-mode: overlay;
     height: 400px;
+    transition: all 0.8s ease;
 }
 
 .blog .blog-grid .post-grid3 {
@@ -1002,6 +1050,7 @@ option {
     background-color: rgba(0, 0, 0, 0.184);
     background-blend-mode: overlay;
     height: 400px;
+    transition: all 0.8s ease;
 }
 
 
@@ -1086,7 +1135,7 @@ option {
 
 hr {
     margin: 15px auto;
-    width: 82%;
+    width: 81.5%;
     border: 1px solid;
     color: rgb(255 255 255 / 12%);
 }
@@ -1099,4 +1148,24 @@ hr {
     line-height: 24px;
     text-align: center;
 
+}
+
+
+.top {
+    position: fixed;
+    top: 92%;
+    left: 95%;
+}
+.top span{
+    background: rgb(230, 83, 60);
+    padding: 15px 18px;
+    border-radius: 30px;
+    font-size: 25px;
+
+}
+
+svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
+    overflow: visible;
+    box-sizing: content-box;
+    color: rgb(255, 255, 255);
 }
